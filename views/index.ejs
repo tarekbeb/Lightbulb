@@ -1,0 +1,91 @@
+<% include partials/template/header.ejs %>
+<% include partials/template/nav.ejs %>
+
+<div class="container-fluid p-0">
+    <div class="header position-relative">
+        <div class="position-absolute w-100 h-100" style="top: 0px; left: 0px; z-index: 15; text-align: center">
+            <div class="d-flex flex-column w-100 h-100 justify-content-around align-items-center">
+                <div class="display-1 text-white d-none d-md-block indieFont">
+                        the lightbulb project
+                    <div class="display-4  text-warning indieFont">
+                        create something together
+                    </div>
+                </div>
+
+                <div class="display-3 text-white d-md-none">
+                    <div>
+                        the lightbulb project
+                    </div>
+
+                    <div class="display-4 text-warning">
+                        create something together
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay w-100 h-100 bg-dark position-absolute" style="top: 0px; left: 0px; z-index: 10; opacity: .5;"></div>
+
+        <div class="position-absolute h-100" style=" z-index: -5; transform: translate(-30%, -100%)">
+            <img src="../images/lightBulbFrontPage.jpg" alt="lightbulb">
+        </div>
+    </div>
+
+
+    <main class="p-0 m-0">
+        <div class="row m-0 bg-light w-100 p-5  border border-dark">
+                <div class="col-12 text-center text-dark">
+                    <h1 class="font-italic text-center pb-2 size">~ Inspire & Create ~</h1>
+                    <!-- <h1 class="display-4 font-italic text-center pb-2 d-none d-md-block">~Great Taste, Good Times~</h1> -->
+                </div>
+                <div class="mx-auto text-dark pt-2 h-100 d-flex ">
+                    <div class="col-2"></div>
+                    <div class="col-8 mb-4 flex-column lead text-center">
+                            Create something great together
+                            Brainstorm and share ideas with others
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="mx-auto col-12 text-center">
+                    <a role="button" href="register" class="btn btn-warning">Get Started</a>
+                </div>
+            </div>
+
+    <div class="parallax"></div>
+
+    <div class="row bg-dark w-100 m-0 text-warning pt-4 pb-5 text-center">
+        <div class="col-md-3 pl-4 pb-3">
+            <img src="../images/face.png" class="rounded-circle" height="100px" alt=""><br>
+            <div class="h3 text-light">
+                Tarek
+            </div><br>
+            social media links
+        </div>
+        <div class="col-md-3 pb-3">
+            <img src="../images/face.png" class="rounded-circle" height="100px" alt=""><br>
+            <div class="h3 text-light">
+                Alfie
+            </div><br>
+            social media links
+        </div>
+        <div class="col-md-3 pb-3">
+            <img src="../images/face.png" class="rounded-circle" height="100px" alt=""><br>
+            <div class="h3 text-light">
+                Michael
+            </div><br>
+            social media links
+        </div>
+        <div class="col-md-3 pb-3">
+            <img src="../images/face.png" class="rounded-circle" height="100px" alt=""><br>
+            <div class="h3 text-light">
+                Chris
+            </div><br>
+            social media links
+        </div>
+    </div>
+
+        <!-- <div class="parallax2"></div> -->
+
+</main>
+</div>
+<% include partials/template/footer.ejs %>

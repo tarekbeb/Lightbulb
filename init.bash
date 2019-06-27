@@ -1,0 +1,1 @@
+sequelize model:generate --name projectSkills --attributes projectId:integer,skillsId:integer

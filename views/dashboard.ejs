@@ -1,0 +1,33 @@
+<% include partials/template/header.ejs %>
+<% include partials/template/nav.ejs %>
+
+<div class="container-fluid">
+    <div class="row">
+    <% project.forEach(record => { %>
+    <div class="col-sm-6 col-md-6 col-lg-3 test">
+        <div id="carder" class="card mb-5 mt-2 cardLightUp">
+            <a href="#" style="color: black; text-decoration: none;">
+                <div class="card-body carder" style="height: 20vh;">
+                    <h5 class="card-title"><%= record.pName %></h5>
+                    <p class="card-text"><%= record.summary %></p>
+                </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item cardneed" style="background-color:rgb(253, 244, 231)">
+                            <ul>Skills needed:
+                            <!-- <% skills.forEach(record => { %>
+                                <li><%= record.skillName %></li>
+                            <% }) %>  -->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </a>
+
+        </div>
+        <% }) %> 
+        
+    </div>
+</div>
+
+
+<% include partials/template/footer.ejs %>

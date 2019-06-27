@@ -1,0 +1,24 @@
+Essentials: 
+1. make login page form
+2. sessions
+3. passport(authentication)
+4. connect skills to projects
+5. connect skill to profiles
+6. profile page
+7. view project page 
+8. seed actual people and actual projects
+9. make sure registration form is working
+10. create project page
+11. Add bio and skills page
+
+Add-ons: 
+1. sort and filter below navbar
+2. my ideas inside the profile
+3. forgot password
+4. login with google/facebook
+5. lightbulb icon font awesome
+
+
+
+
+    

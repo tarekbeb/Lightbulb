@@ -1,0 +1,36 @@
+{
+  "name": "lightbulp",
+  "version": "2.0.0",
+  "description": "sharing ideas in one platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lightbulp"
+  },
+  "author": "Alfie Santos, Chris Humphrey, Michael Dao, Tarek Al Beb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarekbeb/lightbulp/issues"
+  },
+  "homepage": "https://github.com/tarekbeb/lightbulp#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-session-sequelize": "^6.0.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pbkdf2": "^3.0.17",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "req-flash": "0.0.3",
+    "sequelize": "^5.8.11"
+  }
+}

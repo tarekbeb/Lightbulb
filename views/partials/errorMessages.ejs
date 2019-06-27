@@ -1,0 +1,35 @@
+<!-- BASICALLY IF TYPEOF ERRORS ARE CONSIDERED UNDEFINED THEN THERE IS AN ERROR 
+IF THERE'S AN ERROR, DISPLAY THE ERRORS 
+    LOOPS THROUGH THE ERRORS ARRAY -->
+<% if(typeof(errors) != 'undefined') { %>
+    <% errors.forEach(function(error){ %>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <%= error.msg %>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    <% }); %> 
+<% } %>
+
+<!-- THE WAY THE SUCCESS MSG WORKS IS THAT IF THERE'S NOT STRING THEN IT'S A SUCCESS 
+IF SUCCESS MSG ISN'T EQUAL TO AN EMPTY STRING THEN SHOW THE SUCCESS MESSAGE -->
+<% if(success_msg != '') { %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <%= success_msg %>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+<% } %>
+
+<!-- THIS IS THE ERROR FOR LOGIN IF EMAIL ISN'T REGISTERED OR FIELDS DO NOT MATCH -->
+<% if(error_msg != '') { %>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <%= error_msg %>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+<% } %>
