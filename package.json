@@ -31,6 +31,6 @@
     "pg": "^7.11.0",
     "pg-hstore": "^2.3.3",
     "req-flash": "0.0.3",
-    "sequelize": "^5.8.11"
+    "sequelize": "^5.15.1"
   }
 }
